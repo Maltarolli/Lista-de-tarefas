@@ -1,6 +1,6 @@
 # 📝 Lista de Tarefas
 
-Uma aplicação simples de lista de tarefas desenvolvida com React e Vite. Este é o primeiro projeto do autor utilizando React, com o objetivo de praticar os fundamentos da biblioteca e do ecossistema moderno de desenvolvimento front-end.
+Uma aplicação simples de lista de tarefas desenvolvida com React e Vite. Este é o meu primeiro projeto utilizando React, com o objetivo de praticar os fundamentos da biblioteca e do ecossistema moderno de desenvolvimento front-end.
 
 🔗 [Acesse a aplicação online](https://lista-de-tarefas-indol.vercel.app)
 
@@ -8,12 +8,12 @@ Uma aplicação simples de lista de tarefas desenvolvida com React e Vite. Este 
 
 ## 🚀 Tecnologias Utilizadas
 
-- [React](https://reactjs.org/) – Biblioteca JavaScript para construção de interfaces de usuário.
-- [Vite](https://vitejs.dev/) – Ferramenta de build rápida e moderna para projetos front-end.
-- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) – Linguagem de programação utilizada no desenvolvimento.
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML) e [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS) – Tecnologias para estruturação e estilização da aplicação.
-- [ESLint](https://eslint.org/) – Ferramenta para análise estática de código.
-- [EditorConfig](https://editorconfig.org/) – Ajuda a manter estilo de codificação consistente.
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) – Linguagem de programação utilizada no desenvolvimento.
+- [React](https://reactjs.org/) – Biblioteca JavaScript para construção de interfaces de usuário.
+- [Tailwind CSS](https://tailwindcss.com/) – Framework utilitário de CSS para criação rápida e customizada de interfaces responsivas.
+- [Vite](https://vitejs.dev/) – Ferramenta de build rápida e moderna para projetos front-end.
+
 
 ---
 
@@ -46,8 +46,10 @@ Uma aplicação simples de lista de tarefas desenvolvida com React e Vite. Este 
 
 ## 🧩 Funcionalidades
 
-- Adicionar novas tarefas.
-- Visualizar a lista de tarefas adicionadas.
+- Adição de novas tarefas.
+- Visualização da lista completa de tarefas.
+- Remoção de tarefas com facilidade.
+- Marcação de tarefas como concluídas ao clicar sobre elas.
 
 *Mais funcionalidades podem ser adicionadas com o tempo.*
 
