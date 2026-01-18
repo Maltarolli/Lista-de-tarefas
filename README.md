@@ -50,7 +50,6 @@ Uma aplicação simples de lista de tarefas desenvolvida com React e Vite. Este 
 - Visualização da lista completa de tarefas.
 - Remoção de tarefas com facilidade.
 - Marcação de tarefas como concluídas ao clicar sobre elas.
-- Manter salvo as tarefas no Local Sotorage do navegador
 
 *Mais funcionalidades podem ser adicionadas com o tempo.*
 
