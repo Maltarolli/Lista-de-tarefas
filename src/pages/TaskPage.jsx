@@ -1,11 +1,31 @@
 import { ChevronLeftIcon } from "lucide-react";
 import { useNavigate, useSearchParams } from "react-router-dom";
+import { useEffect } from "react";
 
 function TaskPage() {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const title = searchParams.get("title");
   const description = searchParams.get("description");
+
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://webchat.hyperflow.global/sdk.js";
+    script.async = true;
+
+    script.onload = () => {
+      if (window.Hyperflow) {
+        window.Hyperflow.init("6041be8906775add5ebd6ebc2016bbd7");
+      }
+    };
+
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <div className="w-screen h-screen flex bg-slate-500 justify-center p-6">
       <div className="w-[500px] mx-auto space-y-4">
